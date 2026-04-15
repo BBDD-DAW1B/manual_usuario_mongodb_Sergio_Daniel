@@ -42,9 +42,9 @@ Este proyecto me ha permitido entender que la administración de bases de datos 
 ---
 
 ## 👤 Autor
-**Sergio Daniel F.**
+**Sergio Daniel.**
 * Estudiante de 1º de Desarrollo de Aplicaciones Web (DAW)
 * *Enfocado en aprender a construir infraestructuras sólidas y escalables.*
 
 ---
-*Si te sirve este manual, ¡dale una ⭐️ al repositorio!*
+*Si te sirve este manual, ¡dale una ⭐️⭐️⭐️ al repositorio!*
