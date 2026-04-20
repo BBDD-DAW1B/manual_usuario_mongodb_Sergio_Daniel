@@ -1,50 +1,68 @@
-# 🍃 Manual de Usuario: MongoDB + Docker + VS Code
+# Manual de Usuario: MongoDB + Docker + VS Code
 
-> **Proyecto Académico para DAW 1º - Curso 2025/2026**
-> Una guía práctica y humana sobre cómo orquestar bases de datos NoSQL utilizando contenedores y entornos de desarrollo modernos.
-
----
-
-## 🎯 Objetivo del Proyecto
-Este manual nace con la idea de simplificar el despliegue de **MongoDB**. En lugar de instalaciones locales farragosas, aquí aprendemos a "dockerizar" el servicio, conectarlo con **Visual Studio Code** y gestionar datos mediante scripts profesionales (`.mongodb.js`).
-
-## 🛠️ Stack Tecnológico
-* **Motor de BD:** [MongoDB Community Server](https://www.mongodb.com/)
-* **Orquestación:** [Docker Desktop](https://www.docker.com/)
-* **IDE:** [Visual Studio Code](https://code.visualstudio.com/)
-* **Extensión:** MongoDB for VS Code
+Manual de usuario mongodb - 1º DAW (2025/2026)
 
 ---
 
-## 🚀 ¿Qué encontrarás en este manual?
+## Objetivo
 
-El documento está estructurado para llevarte de 0 a 100:
+La idea de este trabajo es aprender a usar MongoDB sin tener que instalar todo directamente en el ordenador.
 
-1.  **Configuración de Docker:** Cómo descargar la imagen oficial y levantar un contenedor seguro con credenciales de administrador.
-2.  **Entorno de Desarrollo:** Instalación y configuración de VS Code para que "entienda" MongoDB.
-3.  **Gestión de Datos (CRUD):** * Creación de la base de datos `academia`.
-    * Inserción de documentos (usuarios y cursos).
-    * Actualización de registros en tiempo real.
-4.  **Consultas Avanzadas:** Uso de operadores como `$gt` para filtrar información relevante.
-5.  **Limpieza y Mantenimiento:** Borrado de registros y gestión de colecciones.
+Para eso usamos Docker, que nos permite tener la base de datos funcionando en un contenedor, y luego la conectamos con Visual Studio Code para trabajar más cómodo.
 
 ---
 
-## 📂 Estructura del Repositorio
-* `/PDF`: Contiene el manual de usuario completo con capturas de pantalla detalladas.
-* `/Scripts`: Archivos `.mongodb.js` con las consultas y operaciones realizadas en la base de datos `academia`.
+## Tecnologías usadas
+
+- MongoDB (base de datos NoSQL)
+- Docker Desktop (para ejecutar MongoDB en contenedores)
+- Visual Studio Code (editor de código)
+- Extensión MongoDB for VS Code
 
 ---
 
-## 🧠 Reflexión del Desarrollador
-Este proyecto me ha permitido entender que la administración de bases de datos hoy en día no va de "instalar programas", sino de **orquestar entornos**. El uso de contenedores Docker garantiza que lo que funciona en mi máquina, funcionará en cualquier lugar.
+## Qué se hace en este manual
+
+En este documento se explica paso a paso cómo montar todo desde cero.
+
+Primero se configura Docker y se levanta el contenedor de MongoDB con usuario y contraseña.
+
+Después se prepara Visual Studio Code para poder conectarse a la base de datos.
+
+Una vez conectado, se trabajan las operaciones básicas:
+
+- Crear una base de datos llamada `academia`
+- Insertar datos (usuarios y cursos)
+- Modificar datos
+- Consultar información usando filtros
+- Borrar registros
+
+También se hacen algunas consultas un poco más avanzadas usando operadores como `$gt`.
 
 ---
 
-## 👤 Autor
-**Sergio Daniel.**
-* Estudiante de 1º de Desarrollo de Aplicaciones Web (DAW)
-* *Enfocado en aprender a construir infraestructuras sólidas y escalables.*
+## Estructura del proyecto
+
+El repositorio está organizado así:
+
+- `/PDF` → contiene el manual completo con capturas
+- `/Scripts` → archivos `.mongodb.js` con todas las consultas usadas
 
 ---
-*Si te sirve este manual, ¡dale una ⭐️⭐️⭐️ al repositorio!*
+
+## Reflexión personal
+
+Al hacer este trabajo me he dado cuenta de que hoy en día no hace falta instalar todo directamente en el sistema.
+
+Con Docker puedes levantar servicios como MongoDB en segundos y sin complicarte mucho. Además, todo queda más organizado y es más fácil repetir el proceso en otro ordenador.
+
+---
+
+## Autor
+
+Sergio Daniel  
+Estudiante de 1º DAW
+
+---
+
+Si este manual te ayuda, puedes darle una estrella al repositorio.
